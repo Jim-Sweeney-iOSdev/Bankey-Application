@@ -30,24 +30,43 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		22A129E42ED51F8300631321 /* Exceptions for "Bankey" folder in "Bankey" target */ = {
+		22A12A512ED5245A00631321 /* Exceptions for "Bankey" folder in "Bankey" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				"/Localized: LaunchScreen.storyboard",
+				AppDelegate.swift,
+				Assets.xcassets,
+				LoginView.swift,
+				LoginViewController.swift,
 			);
 			target = 22A129B82ED51F8100631321 /* Bankey */;
 		};
+		22A12A532ED5245A00631321 /* Exceptions for "Bankey" folder in "BankeyUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: LaunchScreen.storyboard",
+				AppDelegate.swift,
+				Assets.xcassets,
+				Bankey.xcdatamodeld,
+				Info.plist,
+				LoginView.swift,
+				LoginViewController.swift,
+			);
+			target = 22A129DB2ED51F8300631321 /* BankeyUITests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		22A129BB2ED51F8100631321 /* Bankey */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				22A129E42ED51F8300631321 /* Exceptions for "Bankey" folder in "Bankey" target */,
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		22A12A662ED5292300631321 /* Exceptions for "Bankey" folder in "Compile Sources" phase from "Bankey" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 22A129B52ED51F8100631321 /* Sources */;
+			membershipExceptions = (
+				Bankey.xcdatamodeld,
 			);
-			path = Bankey;
-			sourceTree = "<group>";
 		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
 		22A129D52ED51F8300631321 /* BankeyTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BankeyTests;
@@ -56,6 +75,16 @@
 		22A129DF2ED51F8300631321 /* BankeyUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BankeyUITests;
+			sourceTree = "<group>";
+		};
+		22A12A4B2ED5245A00631321 /* Bankey */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				22A12A512ED5245A00631321 /* Exceptions for "Bankey" folder in "Bankey" target */,
+				22A12A662ED5292300631321 /* Exceptions for "Bankey" folder in "Compile Sources" phase from "Bankey" target */,
+				22A12A532ED5245A00631321 /* Exceptions for "Bankey" folder in "BankeyUITests" target */,
+			);
+			path = Bankey;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,7 +117,7 @@
 		22A129B02ED51F8100631321 = {
 			isa = PBXGroup;
 			children = (
-				22A129BB2ED51F8100631321 /* Bankey */,
+				22A12A4B2ED5245A00631321 /* Bankey */,
 				22A129D52ED51F8300631321 /* BankeyTests */,
 				22A129DF2ED51F8300631321 /* BankeyUITests */,
 				22A129BA2ED51F8100631321 /* Products */,
@@ -119,9 +148,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				22A129BB2ED51F8100631321 /* Bankey */,
 			);
 			name = Bankey;
 			packageProductDependencies = (
@@ -168,6 +194,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				22A129DF2ED51F8300631321 /* BankeyUITests */,
+				22A12A4B2ED5245A00631321 /* Bankey */,
 			);
 			name = BankeyUITests;
 			packageProductDependencies = (
@@ -292,9 +319,9 @@
 				DEVELOPMENT_TEAM = 8T66PM3UR2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Bankey/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,9 +347,9 @@
 				DEVELOPMENT_TEAM = 8T66PM3UR2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Bankey/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
