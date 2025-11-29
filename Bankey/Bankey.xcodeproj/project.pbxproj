@@ -36,8 +36,10 @@
 				"/Localized: LaunchScreen.storyboard",
 				AppDelegate.swift,
 				Assets.xcassets,
+				Bankey.xcdatamodeld,
 				LoginView.swift,
 				LoginViewController.swift,
+				OnboardingContainerViewController.swift,
 			);
 			target = 22A129B82ED51F8100631321 /* Bankey */;
 		};
@@ -47,6 +49,7 @@
 				"/Localized: LaunchScreen.storyboard",
 				AppDelegate.swift,
 				Assets.xcassets,
+				"Bankey 2.xcdatamodeld",
 				Bankey.xcdatamodeld,
 				Info.plist,
 				LoginView.swift,
@@ -57,11 +60,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		22A12AA12ED5355C00631321 /* Exceptions for "Bankey" folder in "Compile Sources" phase from "Bankey" target */ = {
+		22AA7A1A2EDA7B9600EC3F14 /* Exceptions for "Bankey" folder in "Compile Sources" phase from "Bankey" target */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			buildPhase = 22A129B52ED51F8100631321 /* Sources */;
 			membershipExceptions = (
-				Bankey.xcdatamodeld,
+				"Bankey 2.xcdatamodeld",
 			);
 		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
@@ -81,7 +84,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				22A12AA02ED5355C00631321 /* Exceptions for "Bankey" folder in "Bankey" target */,
-				22A12AA12ED5355C00631321 /* Exceptions for "Bankey" folder in "Compile Sources" phase from "Bankey" target */,
+				22AA7A1A2EDA7B9600EC3F14 /* Exceptions for "Bankey" folder in "Compile Sources" phase from "Bankey" target */,
 				22A12AA22ED5355C00631321 /* Exceptions for "Bankey" folder in "BankeyUITests" target */,
 			);
 			path = Bankey;
